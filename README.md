@@ -30,4 +30,6 @@ Each datastore should contain two domains:
 - Domain 1: CompanyABC (Main automation domain with the integration methods)
 - Domain 2: CompanyABC_Variables (Reference domain for storing specific variables/attributes)
 
-Import using CloudForms automate datastore import tool and then customize as needed
+Import using CloudForms automate datastore import tool and then customize as needed.
+
+Happy Integrating!!
