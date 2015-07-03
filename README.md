@@ -12,7 +12,7 @@ environment for the desired integration type.
 Each datastore zip file strictly contains ONLY the automation elements that are needed
 to support basic integration for a specific system. 
 
-For example, the datastore_chef_070315 zip file is a datastore export that contains
+For example, the "datastore_chef_070315 zip" file is a datastore export that contains
 the Automate elements for a Chef integration use case:
 
 Chef: 
