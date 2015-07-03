@@ -13,7 +13,7 @@ of the domain. The namespace will have the name of the integration target system
 
 What's in each datastore zip file?
 =====================================================================
-Each datastore zip file strictly contains ONLY the components to needed to support 
+Each datastore zip file strictly contains ONLY the components needed to support 
 basic use case functionality for a specific system. 
 
 - Namespace
@@ -21,10 +21,13 @@ basic use case functionality for a specific system.
 - Instances(s)
 - Method(s)
 
-- For example, the *** "datastore_chef_070315.zip"*** datastore contains only 
+For example, the *** "datastore_chef_070315.zip"*** datastore contains only 
 the automation elements for a basic Chef integration use case. 
 
-- More information about the supported use case(s) can be found in the 
+All other components have been excluded for a clean and simple import in 
+an existing CloudForms environment to get your testing started. 
+
+More information about the supported use case(s) can be found in the 
 corresponding readme file.
 
 =====================================================================
