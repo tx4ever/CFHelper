@@ -24,11 +24,12 @@ basic use case functionality for a specific system.
 For example, the *** "datastore_chef_070315.zip"*** datastore contains only 
 the automation elements for a basic Chef integration use case. 
 
-All other components have been excluded for a clean and simple import in 
-an existing CloudForms environment to get your testing started. 
+All other namespaces are excluded from the datastore except for the targeted integration elements.
 
-More information about the supported use case(s) can be found in the 
-corresponding readme file.
+This allows for a clean and direct import into an existing domain for immediate testing. 
+
+More information about each integration datastore and its supported use case(s) can be 
+found in the corresponding readme file.
 
 =====================================================================
 Each datastore should contain two domains:
