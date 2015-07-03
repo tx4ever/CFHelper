@@ -2,26 +2,29 @@ Welcome to the CFHelper Project
 =================================
 ***CLOUDFORMS INTEGRATIONS REPO***  
 
-This project is purposefully created to store targeted CloudForms Automate Datastores
-with specific integration elements. 
+This project is purposefully created to store CloudForms Automate datastores
+for a single specific integration system. (Chef, F5, Infoblox, Bluecat, MS AD, NetAPP, etc..) 
 
 Each datastore zip file can be easily imported into a CloudForms test/dev 
-environment for the desired integration type.
+environment for basic functionality and customized as needed.
 
+At import, a namespace will be added directly under the /Integration namespace off the root 
+of the domain. The namespace will have the name of the integration target system.
+
+What's in each datastore zip file?
 =====================================================================
-Each datastore zip file strictly contains ONLY the automation elements that are needed
-to support basic integration for a specific system. 
+Each datastore zip file strictly contains ONLY the components to needed to support 
+basic use case functionality for a specific system. 
 
-For example, the "datastore_chef_070315 zip" file is a datastore export that contains
-the Automate elements for a Chef integration use case:
+- Namespace
+- Class(s)
+- Instances(s)
+- Method(s)
 
-Chef: 
-- Namespaces
-- Classes
-- Instances
-- Methods
+- For example, the *** "datastore_chef_070315.zip"*** datastore contains only 
+the automation elements for a basic Chef integration use case. 
 
-More information about the use case the specific datastore supports can be found in the
+- More information about the supported use case(s) can be found in the 
 corresponding readme file.
 
 =====================================================================
