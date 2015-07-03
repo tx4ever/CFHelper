@@ -1,0 +1,19 @@
+### Use Case:
+
+- Supports a dynamic drop down to list the available cookbooks for the Chef server 
+configured in the knife.rb file
+
+- User selects the cookbook they want installed on the instance in the request
+
+- Upon retirement, the server is un-registered from the Chef server
+
+
+### Requirements:
+
+- Requires a knife.rb file to exists in /root/.chef directory on ALL worker appliances
+
+- Requires an admin and validator .pem file to exists in /root/.chef directory on all appliances
+
+- Requires a knife_wrapper.sh script to exists in /var/www/miq directory on ALL worker appliances
+
+- 
