@@ -7,13 +7,12 @@ with specific integration elements.
 
 Each datastore zip file can be easily imported into a CloudForms test/dev 
 environment for the desired integration type.
-
 =====================================================================
 Each datastore zip file strictly contains ONLY the automation elements that are needed
 to support basic integration for a specific system. 
 
-For example, the datastore_chef_070315 zip file is a datastore export that contains the 
-the automate elements for a Chef integration use case:
+For example, the datastore_chef_070315 zip file is a datastore export that contains
+the Automate elements for a Chef integration use case:
 
 Chef: 
 - Namespaces
@@ -21,9 +20,8 @@ Chef:
 - Instances
 - Methods
 
-More information about the use case the specific datastore supports can be found in the 
+More information about the use case the specific datastore supports can be found in the
 corresponding readme file.
-
 =====================================================================
 
 Each datastore should contain two domains:
