@@ -1,9 +1,12 @@
 Welcome to the CFHelper Project
 =================================
-CloudForms Integration 
+CLOUDFORMS INTEGRATIONS REPO  
 
-This project is created to store CloudForms automate datastores
-to easily download and import directly into a CloudForms environment. 
+This project is purposefully created to store targeted CloudForms Automate Datastores
+with specific integration elements. 
+
+Each integration datastore can be easily imported directly into a CloudForms test/dev 
+environment for a specific integration type.   
 
 =====================================================================
 Each zip file strictly contains ONLY the automation elements to support basic
@@ -17,7 +20,9 @@ Chef:
 - Instances
 - Methods
 
-Each datastore will likely contain two domains:
+Each datastore should contain two domains:
 
-- CompanyABC (Main automation domain with the Chef methods)
-- CompanyABC_Variables (Reference domain for storing specific attributes)
+- Domain 1: CompanyABC (Main automation domain with the integration methods)
+- Domain 2: CompanyABC_Variables (Reference domain for storing specific variables/attributes)
+
+Import using CloudForms automate datastore import tool and then customize as needed
